@@ -1,0 +1,31 @@
+header{
+  text-align:center;
+}
+
+li{
+  text-decoration: none;
+  display: inline;
+}
+
+.wrapper,img{
+  margin: 30px;
+}
+
+.search_bar{
+  width: 460px;
+  padding: 6px;
+  margin: 20px;
+  margin-left: 60px;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+#lightgallery{
+  display: table-cell;
+  vertical-align: middle;
+  text-align:center;
+
+}
