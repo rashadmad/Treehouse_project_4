@@ -1,17 +1,21 @@
-header{
+header {
   text-align:center;
 }
 
-li{
+li {
   text-decoration: none;
   display: inline;
 }
 
-.wrapper,img{
+p {
+  font-size: 5em;
+}
+
+.thumbNails {
   margin: 30px;
 }
 
-.search_bar{
+.search_bar {
   width: 460px;
   padding: 6px;
   margin: 20px;
@@ -23,9 +27,17 @@ li{
   margin: 0 auto;
 }
 
-#lightgallery{
+#lightgallery {
   display: table-cell;
   vertical-align: middle;
   text-align:center;
 
+}
+
+.lg-thumb-open .lg-img-wrap {
+  padding-bottom: 100px;
+}
+
+.lg-thumb-outer{
+  display: none;
 }

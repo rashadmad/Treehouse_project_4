@@ -1,4 +1,8 @@
 $(document).ready(function() {
-    $("#lightgallery").lightGallery();
+    $("#lightgallery").lightGallery({
+
+      escKey: true,
+      showThumbByDefault: false
+
+  });
 });
-  
