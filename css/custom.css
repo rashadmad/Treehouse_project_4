@@ -1,3 +1,11 @@
+h1{
+  font-size: 2.5em;
+}
+
+p{
+  font-size: 3em;
+}
+
 a {
   line-height: 0;
       font-size: 0;
@@ -28,7 +36,7 @@ ul#lightgallery {
 }
 
   #search_input {
-    
+
     padding: 6px;
     margin: 0px;
     margin-left: 0px;
