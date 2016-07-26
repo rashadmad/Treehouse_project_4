@@ -3,13 +3,13 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><html lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en"> <![endif]-->
 
 <head>
     <title>interactive photo gallery using JavaScript and jQuery</title>
-    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
     <!--normalize-->
-    <link rel="stylesheet" type="text/css" src="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <!--JQuery install-->
     <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.8.0.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.22/jquery-ui.js"></script>
@@ -20,35 +20,35 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
 </head>
 
- <body>
+<body>
 
 <header><input id="search_input" type="search" name="search" placeholder="search"></header>
 
 <div class="wrapper">
 <ul id="lightgallery">
-  <li data-src="img/photos/01.jpg" data-sub-html="<h1>Hay Bales</h1><p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>"> <a href><img class="thumbNails" src="img/thumbnails/01.jpg">Hay Bales</a>
+  <li data-src="img/photos/01.jpg" data-sub-html="<h1>Hay Bales</h1><p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>"> <a><img class="thumbNails" src="img/thumbnails/01.jpg" alt="Hay Bales picture" >Hay Bales</a>
   </li>
-  <li data-src="img/photos/02.jpg" data-sub-html="<h1>Lake</h1><p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>"><a href><img class="thumbNails" src="img/thumbnails/02.jpg">Lake</a>
+  <li data-src="img/photos/02.jpg" data-sub-html="<h1>Lake</h1><p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>"><a><img class="thumbNails" src="img/thumbnails/02.jpg" alt="Lake picture" >Lake</a>
   </li>
-  <li data-src="img/photos/03.jpg" data-sub-html="<h1>Canyon</h1><p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>"><a href><img class="thumbNails" src="img/thumbnails/03.jpg">Canyon</a>
+  <li data-src="img/photos/03.jpg" data-sub-html="<h1>Canyon</h1><p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>"><a><img class="thumbNails" src="img/thumbnails/03.jpg" alt="Canyon picture" >Canyon</a>
   </li>
-  <li data-src="img/photos/04.jpg" data-sub-html="<h1>Iceberg</h1><p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today. </p>"><a href><img class="thumbNails" src="img/thumbnails/04.jpg">Iceberg</a>
+  <li data-src="img/photos/04.jpg" data-sub-html="<h1>Iceberg</h1><p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today. </p>"><a><img class="thumbNails" src="img/thumbnails/04.jpg" alt="Iceberg picture">Iceberg</a>
   </li>
-  <li data-src="img/photos/05.jpg" data-sub-html="<h1>Desert</h1><p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>"><a href><img class="thumbNails" src="img/thumbnails/05.jpg">Desert</a>
+  <li data-src="img/photos/05.jpg" data-sub-html="<h1>Desert</h1><p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>"><a><img class="thumbNails" src="img/thumbnails/05.jpg" alt="Desert picture" >Desert</a>
   </li>
-  <li data-src="img/photos/06.jpg" data-sub-html="<h1>Fall</h1><p>Fall is coming, I love when the leaves on the trees start to change color.</p>"><a href><img class="thumbNails" src="img/thumbnails/06.jpg">Fall</a>
+  <li data-src="img/photos/06.jpg" data-sub-html="<h1>Fall</h1><p>Fall is coming, I love when the leaves on the trees start to change color.</p>"><a><img class="thumbNails" src="img/thumbnails/06.jpg" alt="Fall picture" >Fall</a>
   </li>
-  <li data-src="img/photos/07.jpg" data-sub-html="<h1>Plantation</h1><p>I drove past this plantation yesterday, everything is so green!</p>"><a href><img class="thumbNails" src="img/thumbnails/07.jpg">Plantation</a>
+  <li data-src="img/photos/07.jpg" data-sub-html="<h1>Plantation</h1><p>I drove past this plantation yesterday, everything is so green!</p>"><a><img class="thumbNails" src="img/thumbnails/07.jpg"  alt="Plantation picture">Plantation</a>
   </li>
-  <li data-src="img/photos/08.jpg" data-sub-html="<h1>Dunes</h1><p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>"><a href><img class="thumbNails" src="img/thumbnails/08.jpg">Dunes</a>
+  <li data-src="img/photos/08.jpg" data-sub-html="<h1>Dunes</h1><p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>"><a><img class="thumbNails" src="img/thumbnails/08.jpg" alt="Dunes picture" >Dunes</a>
   </li>
-  <li data-src="img/photos/09.jpg" data-sub-html="<h1>Countryside Lane</h1><p>We enjoyed a quiet stroll down this countryside lane. </p>"><a href><img class="thumbNails" src="img/thumbnails/09.jpg">Countryside Lane</a>
+  <li data-src="img/photos/09.jpg" data-sub-html="<h1>Countryside Lane</h1><p>We enjoyed a quiet stroll down this countryside lane. </p>"><a><img class="thumbNails" src="img/thumbnails/09.jpg" alt="Countryside Lane picture">Countryside Lane</a>
   </li>
-  <li data-src="img/photos/10.jpg" data-sub-html="<h1>Sunset</h1><p>Sunset at the coast! The sky turned a lovely shade of orange.</p>"><a href><img class="thumbNails" src="img/thumbnails/10.jpg">Sunset</a>
+  <li data-src="img/photos/10.jpg" data-sub-html="<h1>Sunset</h1><p>Sunset at the coast! The sky turned a lovely shade of orange.</p>"><a><img class="thumbNails" src="img/thumbnails/10.jpg" alt="Sunset picture">Sunset</a>
   </li>
-  <li data-src="img/photos/11.jpg" data-sub-html="<h1>Cave</h1><p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p>"><a href><img class="thumbNails" src="img/thumbnails/11.jpg">Cave</a>
+  <li data-src="img/photos/11.jpg" data-sub-html="<h1>Cave</h1><p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p>"><a><img class="thumbNails" src="img/thumbnails/11.jpg" alt="Cave picture">Cave</a>
   </li>
-  <li data-src="img/photos/12.jpg" data-sub-html="<h1>Bluebells</h1><p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>"><a href><img class="thumbNails" src="img/thumbnails/12.jpg">Bluebells</a>
+  <li data-src="img/photos/12.jpg" data-sub-html="<h1>Bluebells</h1><p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>"><a><img class="thumbNails" src="img/thumbnails/12.jpg" alt="Bluebells picture">Bluebells</a>
   </li>
 </ul>
 </div>
@@ -66,5 +66,5 @@
    <!-- jquery plugin -->
    <script src="jquery-fastLiveFilter-master/jquery.fastLiveFilter.js"></script>
 
-  <body>
+ </body>
 </html>

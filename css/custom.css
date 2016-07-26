@@ -22,17 +22,17 @@ header {
 
 
 ul#lightgallery {
-
+  padding: 0;
   margin: 0;
 
 }
 
   #search_input {
-    width: 200px;
+    
     padding: 6px;
     margin: 0px;
+    margin-left: 0px;
   }
-
 
 
 @media (min-width: 300px){
@@ -40,7 +40,6 @@ ul#lightgallery {
     width: 200px;
     padding: 6px;
     margin: 20px;
-    margin-left: 60px;
   }
 
   #lightgallery {
@@ -69,7 +68,6 @@ ul#lightgallery {
     width: 460px;
     padding: 6px;
     margin: 20px;
-    margin-left: 60px;
   }
 
   .wrapper{
