@@ -4,9 +4,10 @@
 
 * [intro](#intro)
 * [view](#view)
-* [Synopsis](#view)
+* [Synopsis](#Synopsis)
 * [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Installation](#Installation)
+* [Contributing](#Contributors)
 
 ## intro
 This is a Treehouse school project that Got me comfortable with jQuery. It has a lightbox and search.
